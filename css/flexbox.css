@@ -1,0 +1,58 @@
+/*conteiner */
+
+.cabecalhoPrincipal .container {
+    display: flex; /* Caixa flex */
+    align-items: center; /* Alinha verticalmente no centro */
+    justify-content: space-between; /* Coloca o espaço entre os elementos */
+
+}
+
+/* pegando os itmes a */
+.cabecalhoPrincipal-nav  {
+    display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* coloca o espaço em volta dos elementos */
+    width: 70%;
+    margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;   
+}
+
+/* alinha os elementos igual, mantendo as propriedades iguais para os filhos */
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    /* flex-direction: column; /* Direciona o conteudo em coluna 
+    flex-wrap: wrap;  quebra para proxima coluna */ 
+    height: 250px; /* Coloca uma altura no elemento */   
+    flex-flow: column wrap;
+}
+
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 23%;
+    margin-bottom: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+    margin-left: 0;
+
+}
